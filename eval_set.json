@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "bucket": "answerable",
+    "question": "What is the maximum deduction allowed under section 80C?",
+    "expected_section": "80C"
+  },
+  {
+    "id": 2,
+    "bucket": "answerable",
+    "question": "What is the standard deduction limit?",
+    "expected_section": "16(ia)"
+  },
+  {
+    "id": 3,
+    "bucket": "not_in_corpus",
+    "question": "What is the HRA exemption rule for the year 2027?",
+    "expected_section": null
+  },
+  {
+    "id": 4,
+    "bucket": "not_in_corpus",
+    "question": "Can I deduct my crypto trading losses?",
+    "expected_section": null
+  },
+  {
+    "id": 5,
+    "bucket": "ambiguous",
+    "question": "Can I claim both 80C and 80D?",
+    "expected_section": "80C"
+  },
+  {
+    "id": 6,
+    "bucket": "ambiguous",
+    "question": "How is HRA calculated alongside the standard deduction?",
+    "expected_section": "10(13A)"
+  }
+]
